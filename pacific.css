@@ -13,8 +13,6 @@ header {
     color: #FFFFFF;
     height: 120px;
     text-align: center;
-    padding-top: 30px;
-    padding-left: 3em;
 }
 
 header h1 a {
@@ -35,10 +33,12 @@ header h1 a:link {
 
 nav {
     font-weight: bold;
-    padding: 1.5em;
-    font-size: 120%;
-    float: left;
-    width: 160px;    
+    padding: 0;
+    font-size: 120%; 
+}
+
+nav li {
+    border-bottom: 1px solid darkblue;
 }
 
 nav a {
@@ -64,23 +64,15 @@ nav ul {
     font-size: 1.2em;
 }
 
-:link {
-    color: #5C7FA3;
+nav li {
+    text-align: center;
 }
 
 main {
-    margin-left: 190px;
     padding: 1px 20px 20px 30px;
     display: block;
     overflow: auto;
     background-color: #FFFFFF;
-}
-
-section {
-    float: left;
-    width: 33%;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 footer {
@@ -89,16 +81,16 @@ footer {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 2em;
-    margin-left: 190px;
     background-color: #FFFFFF;
 }
 
 h1 {
     text-decoration: none;
-    font-size: 3em;
     letter-spacing: 0.25em;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -136,34 +128,24 @@ img {
 }
 
 #wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
     background-color: #90C7E3;
-    min-width: 960px;
-    max-width: 2048px;
-    box-shadow: offset 3px 3px 3px;
-    border: solid 1px black;
     background-image: linear-gradient(to bottom,#FFFFFF, #90C7E3);
 }
 
 #homehero {
     height: 300px;
-    margin-left: 190px;
     background-image: url(/images/coast2.jpg);
     background-size: 100% 100%;
 }
 
 #yurthero {
     height: 300px;
-    margin-left: 190px;
     background-image: url(/images/yurt.jpg);
     background-size: 100% 100%;
 }
 
 #trailhero {
     height: 300px;
-    margin-left: 190px;
     background-image: url(/images/trail.jpg);
     background-size: 100% 100%;
 }
