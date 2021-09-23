@@ -191,3 +191,47 @@ img {
     }
 }
 
+@media (min-width: 1024px) {    
+    nav li {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+    #wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        border: darkblue 1px solid;
+        display: grid;
+        grid-template-columns: 10em 1fr;
+        grid-template-rows: auto;
+    }
+
+    nav {
+        grid-column: 1 / 2;
+        min-height: 180px;
+    }
+
+    header {
+        grid-column: 1 / 5;
+    }
+
+    div {
+        grid-column: 2 / 2;
+    }
+
+    main {
+        grid-column: 2 / 3;
+    }
+
+    footer {
+        grid-column: 2 / 4;
+    }
+
+}
+
