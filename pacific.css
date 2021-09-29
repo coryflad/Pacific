@@ -11,7 +11,7 @@ body {
 header {
     background-color: #002171;
     color: #FFFFFF;
-    height: 120px;
+    height: 80px;
     text-align: center;
 }
 
@@ -109,6 +109,23 @@ main ul {
     list-style-image: url(images/marker.gif);
 }
 
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
 
 dt {
     color: #002171;
@@ -121,6 +138,10 @@ img {
 .resort {
     color: #1976D2;
     font-weight: bold;
+}
+
+.text {
+    text-align: left;
 }
 
 #contact {
