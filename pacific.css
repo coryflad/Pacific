@@ -46,6 +46,8 @@ nav a {
 
 nav a:link {
     color: #5C7FA3;
+    transition-timing-function: ease-out;
+    transition: 3s;
 }
 
 nav a:visited {
@@ -177,6 +179,11 @@ form {
 
 input, textarea {
     margin-bottom: 0.5em;
+}
+
+video, embed {
+    float: right;
+    padding-left: 20px;
 }
 
 @media (min-width: 600px) {
